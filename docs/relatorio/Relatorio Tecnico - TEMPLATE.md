@@ -1,21 +1,22 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`Projeto: Menor Rota de Entrega`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-`CURSO` 
+`Análise e Desenvolvimento de Sistemas - 2023/2` 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso grupo é composto por 7 (sete) participantes, sendo eles:
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Edrei Dornelas Machado
+> - Tarsis Augustus Simão
+> - Charles Aganeti
+> - João Antônio
+> - Gustavo Henrique Santos
+> - Giordano Norberto Souza
+> - Lucas Felipe Martins
 
 # Estrutura do Documento
 
@@ -56,79 +57,35 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Existem vários aplicativos que oferecem soluções de localização do trânsito (GPS). No entanto, é perceptível que muitos precisam de melhorias. Alguns dos problemas mais comuns incluem cálculos de rotas imprecisos, direções confusas, falta de atualização em tempo real do tráfego e sugestões de rotas ineficientes. Acreditamos que tais problemas ou mais que possam surgir podem ser solucionados facilmente.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Nosso objetivo é unir todas as funcionalidades essenciais das plataformas de rota e transformá-las em um aplicativo, onde será filtrado todas aquelas que não agregam no objetivo do consumidor e possam trazer uma experiência diferenciada, sendo projeto com foco em entregadores de delivery.
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Visando na perspectiva de um entregador, ainda mais no contexto brasilieiro, muitos não têm a oportunidade de dedicar o seu tempo a aprender como um aplicativo de rotas funciona. Tendo isso em mente, é importante que todas as ferramentas do aplicativo sejam ajustadas e simplificadas a fim de evitar complexidades e deixar o aplicativo o mais objetivo possível.
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Por mais que o aplicativo possa ser usado por qualquer tipo de motorista, nós temos o público-alvo destinado aos entregadores de delivery/tele-entrega. Queremos construir uma plataforma onde nossa prioridade seja do nosso público-alvo, mas também que não se limite só a isso.
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+De maneira bem resumida... sobre o projeto:
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+**Quem precisa?**
+R: Os entregadores de aplicativo/delivery/tele-entrega.
+
+**O que precisam?**
+R: Fazer entregas de maneira rápida e simples.
+
+**Por que precisam?**
+R: Para a satisfação do destinatário e do remetente.
+
+> Confira o documento completo:
+> [Especificação do Projeto - Projeto Menor Rota de Entrega](https://github.com/ICEI-PUCMinas-PSG-SI-TI/tiaw-2023-2-menorrota/blob/master/Especifica%C3%A7%C3%A3o%20do%20Projeto.pdf)
 
 ## Personas e Mapas de Empatia
 
@@ -184,40 +141,38 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|ID    | Descrição do Requisito  |
+|------|-----------------------------------------|
+|RF-001| Registro de Usuário |
+|RF-002| Navegação |
+|RF-003| Informações de Tráfego em Tempo Real |
+|RF-004| Integração com GPS |
+|RF-005| Compartilhamento de Informações de Tráfego |
+|RF-006| Integração com Redes Sociais |
+|RF-007| Planejamento de Rotas Antecipadas |
+|RF-008| Pesquisa de Pontos de Interesse (POIs) |
+|RF-009| Notificações em Tempo Real |
+|RF-010| Histórico de Navegação |
+|RF-011| Configurações de Preferências |
+|RF-012| Atualizações e Manutenção |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito  |
+|-------|-------------------------|
+|RNF-001| Usabilidade: o sistema deve ser o mais descomplicado possível (...); |
+|RNF-002| Segurança: deve garantir a segurança e criptografia dos dados dos usuários (...); |
+|RNF-003| Escalabilidade: deve ser capaz de lidar com um grande número de usuários (...); |
+|RNF-004| Usabilidade: deve ser intuitivo e fácil de usar, com uma interface amigável ao usuário; |
+|RNF-005| Consumo de Bateria: deve consumir o mínimo de bateria possível (...); |
+|RNF-006| Precisão de Localização: garantir uma localização precisa do usuário (...); |
+|RNF-007| Conectividade: funcionar bem em regiões com sinal fraco (...); |
+|RNF-008| Integração Social: permitir integração com redes sociais (...); |
+|RNF-009| Atualizações de Mapas: fornecer informações de tráfego em tempo real (...); |
+|RNF-010| Privacidade: respeitar a privacidade dos usuários (...); |
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+> Confira o documento completo:
+> [Requisitos - Projeto Menor Rota de Entrega](https://github.com/ICEI-PUCMinas-PSG-SI-TI/tiaw-2023-2-menorrota/blob/master/Especifica%C3%A7%C3%A3o%20do%20Projeto.pdf)
 
 ## Restrições
 
@@ -287,23 +242,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+O grupo usou metodologia ágil com base no aplicativo Trello, onde as responsabilidades de cada membro são ordenadas e organizam os afazeres do projeto.
+As tarefas são marcadas como 
 
 ## Divisão de Papéis
 
