@@ -8,7 +8,7 @@ Nosso projeto é desenvolvido por estudantes do curso de Análise e Desenvolvime
 * João Antônio
 * Gustavo Henrique Santos
 * Giordano Norberto Souza
-* Lucas Felipe MArtins
+* Lucas Felipe Martins
 * Tarsis Augustus Simão
 
 ## Professores responsáveis
