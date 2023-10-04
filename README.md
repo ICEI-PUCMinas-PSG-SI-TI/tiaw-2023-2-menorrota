@@ -1,17 +1,19 @@
-# Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+# Projeto: Menor Rota de Entrega
+Nosso projeto é desenvolvido por estudantes do curso de Análise e Desenvolvimento de Sistemas, na PUC Minas São Gabriel, com o objetivo de facilitar e simplificar o acesso a rotas de trânsito a entregadores de delivery.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Edrei Dornelas Machado
+* Charles Aganeti
+* João Antônio
+* Gustavo Henrique Santos
+* Giordano Norberto Souza
+* Lucas Felipe MArtins
+* Tarsis Augustus Simão
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Gabriel Barbosa da Fonseca
 
 ## Instruções de utilização
 
