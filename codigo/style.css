@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DIN Next', sans-serif;
+}
+
+#menu-container {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #3316c0;
+    padding-top: 50px;
+    transition: left 0.3s ease-in-out;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+#menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+    color: #fafafa;
+    font-size: 24px;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: url('https://pagina-inicial--charlesaganeti.repl.co/sobrenos/fundo%20duzmotoka.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#news-box {
+    background-color: #3316c0;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+}
+
+#bottom-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 2;
+    color: #fff;
+    background-color: #3316c0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}

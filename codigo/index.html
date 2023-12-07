@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>página inicial - duzmotoka</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a2164cb399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div id="menu-container">
+        <div class="menu">
+            <div class="menu-item" onclick="redirectToLogin()">Login</div>
+            <div class="menu-item" onclick="redirectToCreate()">Cadastro</div>
+            <div class="menu-item" onclick="redirectToSettings()">Configurações</div>
+            <div class="menu-item" onclick="redirectToDonate()">Doar uma informação</div>
+            <div class="menu-item" onclick="redirectToHelp()">Ajuda</div>
+            <div class="menu-item" onclick="redirectToAboutUs()">Sobre nós</div>
+            <div class="menu-item" onclick="logout()">Sair</div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var menuContainer = document.getElementById("menu-container");
+            menuContainer.classList.toggle("show-menu");
+        }
+
+        function redirectToSettings() {
+            window.location.href = "meuperfil.html";
+        }
+
+        function redirectToLogin() {
+            window.location.href = "Login.html";
+        }
+
+        function redirectToCreate() {
+            window.location.href = "Cadastro.html";
+        }
+
+        function redirectToHelp() {
+            window.location.href = "Ajuda.html";
+            alert("Redirecionando para a página de Ajuda");
+        }
+
+        function redirectToDonate() {
+            window.location.href = "Sugestao.html";
+            alert("Redirecionando para a página de Doar uma informação");
+        }
+
+        function redirectToAboutUs() {
+            window.location.href = "sobrenos.html";
+            alert("Redirecionando para a página Sobre Nós");
+        }
+
+        function logout() {
+            alert("Desconectado");
+        }
+
+        function redirectToLoginOrCreate() {
+            alert("Redirecionando para a página de Login/Criar Usuário");
+        }
+
+        function handleTopButton1() {
+            alert("Botão 1 clicado!");
+        }
+
+        function handleTopButton2() {
+            alert("Botão 2 clicado!");
+        }
+    </script>
+
+    <div id="content">
+        <div id="news-box">
+            <h2>Últimas Notícias</h2>
+            <article>
+                <h3>Título da Notícia 1</h3>
+                <p>Conteúdo da Notícia 1...</p>
+            </article>
+            <article>
+                <h3>Título da Notícia 2</h3>
+                <p>Conteúdo da Notícia 2...</p>
+            </article>
+        </div>
+    </div>
+
+  <div id="menu-button">&#9776;</div>
+
+  <button id="bottom-button">Mete Marcha</button><i class="bi bi-arrow-right"></i>
+
+  <script>
+      const menuContainer = document.getElementById('menu-container');
+      const menuButton = document.getElementById('menu-button');
+      const bottomButton = document.getElementById('bottom-button');
+
+      menuButton.addEventListener('click', () => {
+          menuContainer.style.left = (menuContainer.style.left === '0px') ? '-250px' : '0';
+      });
+
+      bottomButton.addEventListener('click', () => {
+          window.location.href = 'Metemarcha.html';
+      });
+  </script>
+  
+</body>
+</html>

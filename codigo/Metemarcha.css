@@ -1,0 +1,58 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: calc(100%);
+    height: calc(100%);
+}
+
+#get-direction, #end-direction {
+    background-color: rgba(0, 31, 63, 0.7);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 8px 16px;
+    margin-right: 8px;
+}
+
+#get-direction i {
+    margin-right: 5px;
+}
+
+.position-absolute.top-0.end-0 {
+margin-top: 20px;
+margin-right: 20px;
+}
+
+.mapbox-directions-instructions {
+    overflow: auto !important;
+}
+
+div#geocoder-search {
+    width: 12em;
+    background-color: solid white;
+    border: 2px solid #d5ed86;
+    margin: 25px;
+}
+
+.marker {
+    font-size: 3em;
+    color: #bb0000;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}

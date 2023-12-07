@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Sugestao.css" rel="stylesheet" type="text/css" />
+    <title>sugestões - duzmotoka</title>
+    
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>Ajude-nos a melhorar!</h1>
+
+    <div id="comment-form">
+        <form id="suggestionForm" action="#" method="post">
+            <textarea id="comment" name="comment" placeholder="Escreva aqui sua sugestão." required></textarea>
+
+            <br>
+
+            <input type="submit" value="Enviar">
+
+            <button id="back-button" onclick="goBack()">Voltar</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('suggestionForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            var suggestion = document.getElementById('comment').value;
+
+            var jsonData = {
+                suggestion: suggestion
+            };
+
+            var jsonString = JSON.stringify(jsonData);
+
+            console.log(jsonString);
+
+        });
+
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+</html>

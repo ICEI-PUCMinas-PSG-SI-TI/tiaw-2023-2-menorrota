@@ -1,0 +1,205 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body.bg-image {
+  background-image: url('https://pagina-inicial--charlesaganeti.repl.co/sobrenos/fundo%20duzmotoka.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body.bg-image2 {
+  background-image: url('https://pagina-inicial--charlesaganeti.repl.co/sobrenos/fundo%20duzmotoka%202.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body h1,
+body p {
+  color: #d5ed86;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login-container {
+  max-width: 50%;
+  background: rgb(75,80,209);
+  background: linear-gradient(180deg, rgba(75,80,209,1) 50%, rgba(34,40,111,1) 100%);
+  text-align: center;
+  align-items: center;
+}
+
+.duzmotoka {
+  width: 300px;
+  padding: 20px;
+  height: auto;
+}
+
+input::placeholder {
+  color: #d6d6d6;
+}
+
+input {
+  color: white;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 80%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #262c79;
+}
+
+.back-button {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-form button {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-buttons {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+div {
+  text-align: center;
+  margin: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+    color: #fafafa;
+    font-size: 24px;
+}
+
+#menu-container {
+    position: fixed;
+    top: 0;
+    left: -500px;
+    width: 250px;
+    height: 100%;
+    background-color: #3316c0;
+    padding-top: 50px;
+    transition: left 0.3s ease-in-out;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: url('Imagens/fundo duzmotoka.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+
+    .login-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .back-button {
+        font-size: 10px;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .duzmotoka {
+        width: 80%;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"],
+    .login-form input[type="email"] {
+        width: 100%;
+    }
+
+    .login-buttons button {
+        width: 100%;
+    }
+}
