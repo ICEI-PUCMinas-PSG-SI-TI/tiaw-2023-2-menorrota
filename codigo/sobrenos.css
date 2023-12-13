@@ -1,0 +1,159 @@
+body.bg-image, html {
+    background-image: url('https://pagina-inicial--charlesaganeti.repl.co/sobrenos/fundo%20duzmotoka%202.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.col-md-8 h3 {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    color: #d5ed86 !important;
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+
+h4 text-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height: 100vh;
+    font-weight: regular;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: regular;
+}
+
+a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d5ed86;
+}
+
+.col-md-8 a i {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.equipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fa-linkedin-in, .fa-instagram, .fa-x-twitter, .redes-sociais {
+    color: #d5ed86;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-right: 5px;
+}
+
+.fa-square-caret-left {
+  color: #d5ed86;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+header {
+    position: sticky;
+    background-color: rgb(59, 61, 140);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.fa-bars {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  margin: 0 auto;
+  height: auto;
+  z-index: 2;
+}
+
+#menu-container {
+    position: absolute;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(75,80,209);
+    background: linear-gradient(180deg, rgba(75,80,209,1) 50%, rgba(34,40,111,1) 100%);
+    padding-top: 50px;
+    transition: left 0.3s ease-in-out;
+    border-right: 2px solid white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  color: #c0fa00;
+}
+
+#back-button {
+  margin-right: 10px;
+}
+
+#menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+    color: #fafafa;
+    font-size: 24px;
+}
+
+.navbar-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
