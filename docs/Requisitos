@@ -1,0 +1,17 @@
+1. (EDREI) Interface do Usuário (UI):
+   - Desenvolver a interface do usuário, incluindo design, layout e elementos interativos, como formulários para entrada de informações de entrega.
+
+3. (Lógica de Roteirização):
+   - Desenvolver a lógica de roteirização que calcula as rotas com base nas entradas dos usuários. Isso pode envolver a implementação de algoritmos de roteirização.
+
+4. (Giordano)Banco de Dados:
+   - Projetar o banco de dados para armazenar informações de entregas, detalhes de rotas, coordenadas geográficas e outros dados relevantes.
+
+5. (TARSIS)Segurança e Autenticação:
+   - Implementar sistemas de autenticação e segurança para proteger os dados dos usuários e garantir o acesso somente a pessoas autorizadas.
+
+6. (CHARLES) Comunicação e Notificações:
+   - Desenvolver funcionalidades de notificação, como envio de alertas de entrega e atualizações de status das rotas.
+
+7. (Gustavo) Integração com Serviços de Terceiros:
+   - Responsável por integrar o sistema com serviços externos, como serviços de mapeamento (por exemplo, Google Maps), serviços de previsão de tráfego em tempo real ou serviços de geocodificação para melhorar a precisão das rotas.
